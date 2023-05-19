@@ -4,15 +4,22 @@ This repository contains the code and data for conducting a comprehensive phylog
 
 ## Repository Contents
 data/: This directory contains the input data used for phylogenetic analysis, including gene sequences and related information.
+
 scripts/: Here, you will find the scripts used for data preprocessing, multiple sequence alignment, phylogenetic tree construction, and statistical analysis.
+
 results/: The output files from the analysis, including phylogenetic trees, statistical metrics, and visualizations, are stored in this directory.
 
 ## Analysis Workflow
 Data Preprocessing: Gene sequences from representative species were collected and organized in a suitable format for subsequent analysis. Information regarding species taxonomy and gene annotations was also incorporated.
+
 Multiple Sequence Alignment: The gene sequences were aligned using state-of-the-art alignment algorithms to ensure accurate positioning of homologous regions.
+
 Phylogenetic Tree Construction: Phylogenetic trees were inferred using both maximum likelihood (ML) and Bayesian methods. ML approaches such as RAxML-NG and IQ-tree were employed, along with Bayesian methods implemented in MrBayes.
+
 Statistical Analysis: Statistical metrics, including bootstrap values and Bayesian posterior probabilities, were calculated to assess the reliability and support of the inferred phylogenetic relationships.
+
 Visualization: The resulting phylogenetic trees and related visualizations were generated to facilitate the interpretation and communication of the analysis results.
+
 ## Usage
 To reproduce the phylogenetic analysis or explore the results, follow the instructions provided in the individual script files. The necessary input data can be found in the data/ directory, while the output files generated during the analysis are stored in the results/ directory.
 
